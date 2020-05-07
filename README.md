@@ -12,15 +12,16 @@ Using the API above create a server with the following endpoint:
 Example: compare-countries?countries=usa,spain,maxico
 
 response
+this means usa has 4997 more TotalConfirmed Cases than Spain
 ```json
 {
   "usa_v_spain":{
     NewConfirmed: 0,
-    TotalConfirmed: +4997, // this means usa has 4997 more TotalConfirmed Cases than Spain
-    NewDeaths: -67,
-    TotalDeaths: +842,
-    NewRecovered: +265,
-    TotalRecovered: -2197,
+    TotalConfirmed: "+4997", 
+    NewDeaths: "-67",
+    TotalDeaths: "+842",
+    NewRecovered: "+265",
+    TotalRecovered: "-2197",
   },
   ...
 }
