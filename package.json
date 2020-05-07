@@ -1,0 +1,12 @@
+{
+  "name": "little-server-code-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Nestyko/little-server-code-challenge.git",
+  "author": "Joaquín Moreira <joaquinscript@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
